@@ -1,5 +1,26 @@
-<h1 align="center">It is a fork to have stored config for my Ender-3</h1>
+#It is a fork to have stored config for my Ender-3
 
+##Build instructions:
+1. Install docker with WSL (docker asks for this adone automatically during installation
+2. VSCode
+3. In VSCode install platformIo and opt. auto build marlin
+4. go to PlatformIO on the left bar and open Marling top dir
+5. Find a small checkmark at left bottom corner named Build
+6. once build has finished it creates `.pio\build\LPC1768` dir. get `firmware.bin` from there
+7. upload it into SD card
+8. change a jumper on BTT SK1.3 motherboard to usb power position
+9. connect usb
+10. in case of `err: EEprom Version` error on load connect with pronterface and execute `m502` -> `m500`
+
+see also: 
+ - [SKR13Guid.pdf](additional_content/SKR13Guide.pdf)
+ - [Official marlin instructions](https://marlinfw.org/docs/basics/install_platformio_vscode.html)
+ - [Official marlin insralling requirements](https://marlinfw.org/docs/basics/install_devcontainer_vscode.html)
+ - [Marlin Firmware - VScode PlatformIO Install - Build Basics video](https://www.youtube.com/watch?v=nICJinTdYp8&ab_channel=Ed%27s3dTech)
+ - [SKR 1.3 - TF drive Marlin firmware loading video](https://www.youtube.com/watch?v=6USb-DginJ0&ab_channel=Ed%27s3dTech)
+
+
+---------------------------------------
 <p align="center"><img src="buildroot/share/pixmaps/logo/marlin-outrun-nf-500.png" height="250" alt="MarlinFirmware's logo" /></p>
 
 <h1 align="center">Marlin 3D Printer Firmware</h1>
