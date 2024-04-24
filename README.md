@@ -18,6 +18,7 @@ see also:
  - [Official marlin insralling requirements](https://marlinfw.org/docs/basics/install_devcontainer_vscode.html)
  - [Marlin Firmware - VScode PlatformIO Install - Build Basics video](https://www.youtube.com/watch?v=nICJinTdYp8&ab_channel=Ed%27s3dTech)
  - [SKR 1.3 - TF drive Marlin firmware loading video](https://www.youtube.com/watch?v=6USb-DginJ0&ab_channel=Ed%27s3dTech)
+ - [Check eeprom_config dir](additional_content/eeprom_config) for configurations accepted as "good enough"
 
 
 ---------------------------------------
